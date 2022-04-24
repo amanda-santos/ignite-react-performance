@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Performance with ReactJS
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/amanda-santos/ignite-react-performance">
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/amanda-santos/ignite-react-performance">
+  
+  <a href="https://github.com/amanda-santos/ignite-react-performance/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/amanda-santos/ignite-react-performance">
+  </a>
+  
+  <a href="https://github.com/amanda-santos/ignite-react-performance/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/amanda-santos/ignite-react-performance">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/amanda-santos/ignite-react-performance">
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+
+## 📝 About the project
+
+<p>Just a small project for learning purposes. Used to learn `memo`, `useMemo`, `useCallback` and other tools in React ecosystem. Developed during Ignite React (Rocketseat).</p>
+
+## 👩🏻‍💻 Technologies
+
+Technologies used to develop this project:
+
+- React
+- Next.js
+- TypeScript
+
+## ⌨ Getting started
+
+- Run `npm i` or `yarn` to install the dependencies
+- Start the server with `npm run server` or `yarn server`
+- Start the app with `npm run dev` or `yarn dev`
+
+## 🤔 How to contribute
+
+**Make a fork of this repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+
+$ gh repo fork amanda-santos/ignite-react-performance
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Follow the steps below**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd ignite-react-performance
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Create a branch with your feature
+$ git checkout -b my-feature
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
 
-## Learn More
+# Send the code to your remote branch
+$ git push origin my-feature
+```
 
-To learn more about Next.js, take a look at the following resources:
+After your pull request is merged, you can delete your branch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with 💜 by Amanda Santos <br />

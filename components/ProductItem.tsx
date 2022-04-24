@@ -32,9 +32,9 @@ const ProductItemComponent = ({
 
   return (
     <div>
-      <h1>Product Item - {product.id}</h1>
-      <p>{product.title}</p>
-      <p>{product.priceFormatted}</p>
+      <p>
+        Product Item - {product.id} - {product.title} - {product.priceFormatted}
+      </p>
 
       <button onClick={() => setIsAddingToWishlist(true)}>
         Add to favorites
